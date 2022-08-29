@@ -1,0 +1,23 @@
+package act4;
+
+import java.util.Scanner;
+
+public class Act4 {
+
+    public static void main(String[] args) {
+    Scanner entrada= new Scanner(System.in);    
+   
+    System.out.println("Ingrese el primer número:");
+    int a= entrada.nextInt();
+    
+    System.out.println("Ingrese el segundo número:");
+    int b= entrada.nextInt();
+    
+    System.out.println("Ingrese el tercer número:");
+    int c= entrada.nextInt();
+    
+    int total=a+b+c;
+    
+    System.out.println("Total:"+total);
+    }
+    
