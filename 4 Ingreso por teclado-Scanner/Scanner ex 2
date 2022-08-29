@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Act4 {
+
+    public static void main(String[] args) {
+    Scanner entrada= new Scanner(System.in);
+    
+    double pesos= 91.80;
+    
+   System.out.println("Ingrese una cantidad de dólares: ");
+   int dolares= entrada.nextInt();
+    
+   double total= pesos*dolares;
+            
+   System.out.println("Pasada a pesos es de: "+total);
+
+    }
+    
+}
