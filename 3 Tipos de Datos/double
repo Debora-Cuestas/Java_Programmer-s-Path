@@ -1,0 +1,10 @@
+public class Act3 {
+
+    public static void main(String[] args) {
+        int numero=1300;
+        double b=1000;
+        double total= numero/b;
+        System.out.println("La medida es de:"+numero+ " metros, pasada a kilometros es: "+total);
+    }
+    
+}
