@@ -1,0 +1,77 @@
+
+//1
+
+package act4;
+
+import java.util.Scanner;
+
+public class Act4 {
+
+    public static void main(String[] args) {
+    Scanner entrada= new Scanner(System.in);
+    
+    System.out.println("Ingrese nombre:");
+    String nombre=entrada.nextLine();
+    
+    System.out.println("Su nombre es: "+nombre+" \nPor favor, ingrese su apellido:\n ");
+    String apellido=entrada.nextLine();
+    
+    System.out.println("Su apellido es: "+apellido+" .Por favor, ingrese su teléfono: ");
+    String telefono=entrada.nextLine();
+    
+    System.out.println("Su nombre es "+nombre+", su apellido "+apellido+" y su telefono es "+telefono+"?");
+    System.out.println("Correcto, gracias");
+
+    }
+    
+}
+
+//2
+
+import java.util.Scanner;
+
+public class Act4 {
+
+    public static void main(String[] args) {
+    Scanner entrada= new Scanner(System.in);
+    
+    double pesos= 91.80;
+    
+   System.out.println("Ingrese una cantidad de dólares: ");
+   int dolares= entrada.nextInt();
+    
+   double total= pesos*dolares;
+            
+   System.out.println("Pasada a pesos es de: "+total);
+
+    }
+    
+}
+
+
+//3
+
+package act4;
+
+import java.util.Scanner;
+
+public class Act4 {
+
+    public static void main(String[] args) {
+    Scanner entrada= new Scanner(System.in);    
+   
+    System.out.println("Ingrese el primer número:");
+    int a= entrada.nextInt();
+    
+    System.out.println("Ingrese el segundo número:");
+    int b= entrada.nextInt();
+    
+    System.out.println("Ingrese el tercer número:");
+    int c= entrada.nextInt();
+    
+    int total=a+b+c;
+    
+    System.out.println("Total:"+total);
+    }
+    
+}

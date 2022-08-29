@@ -1,0 +1,36 @@
+//1)
+package act3;
+
+
+public class Act3 {
+
+    public static void main(String[] args) {
+
+         // Fruta:
+        int precio=30;
+        int numDos=5;
+        int total=precio*numDos;
+        System.out.println("El precio unitario es "+precio+" y si compro "+numDos+" unidades ");
+        System.out.print("el total es "+total);
+    }
+}
+
+
+
+
+
+//2)
+
+package act3;
+
+
+public class Act3 {
+
+    public static void main(String[] args) {
+        int numero=1300;
+        double b=1000;
+        double total= numero/b;
+        System.out.println("La medida es de:"+numero+ " metros, pasada a kilometros es: "+total);
+    }
+    
+}

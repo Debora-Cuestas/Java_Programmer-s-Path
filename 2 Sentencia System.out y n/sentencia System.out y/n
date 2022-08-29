@@ -1,0 +1,25 @@
+package act1;
+
+@author Debora
+
+public class Act1 {
+
+    public static void main(String[] args) {
+        
+ System.out.print("Esta es la segunda clase\ndel curso de Programación\n");
+
+ System.out.println("Este es un primer renglón");
+ System.out.println("Este es el segundo\n");
+ 
+ System.out.print("\nEste es el tercero (hay dos saltos de linea)\n");
+
+ System.out.println("Primer renglón");
+ System.out.println("Segundo renglón\n");
+ 
+ System.out.println("Tercer renglón");
+ System.out.println("Cuarto Renglón");
+
+
+    }
+}
+
