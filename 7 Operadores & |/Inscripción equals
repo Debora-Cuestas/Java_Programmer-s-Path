@@ -1,0 +1,35 @@
+
+package act6;
+
+import java.util.Scanner;
+
+
+public class Act6 {
+
+    public static void main(String[] args) {
+     Scanner entrada= new Scanner(System.in);
+    String nombre, respuesta1, respuesta2;
+    int edad;
+
+    System.out.println("Ingrese su nombre");
+    nombre= entrada.nextLine();
+    
+    System.out.println("Ingrese su edad");
+    edad= entrada.nextInt();
+    
+    System.out.println("Correcto, ¿Ha finalizado el secundario? S/N");
+    
+    System.out.println("1_Si");
+    respuesta1= entrada.nextLine();
+    
+    System.out.println("2_No");
+    respuesta2= entrada.nextLine();
+    
+  
+    if(edad>=18 & respuesta2.equals("1")){
+       System.out.println("Inscripción a la Universidad");
+    }else{
+        System.out.println("Debe ser mayor de edad y terminar el secundario para poder inscribirse");
+    }
+   }
+  }
