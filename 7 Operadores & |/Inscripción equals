@@ -1,4 +1,12 @@
 
+/*Hacer un programa que almacene el nombre, edad y si termi-
+nó el secundario del usuario.
+
+Si el usuario es mayor de edad y terminó el secundario apa-
+recerá un cartel que dice “Inscripción a la Universidad”. Si-
+no aparecerá “Debe ser mayor de edad y terminar el secunda-
+rio para poder inscribirse”*/
+
 package act6;
 
 import java.util.Scanner;
