@@ -1,1 +1,53 @@
+import java.util.Scanner;
+
+
+public class Act6 {
+
+    public static void main(String[] args) {
+    Scanner entrada= new Scanner (System.in);
+    
+     System.out.println("Ingrese un número");
+     int numero1= entrada.nextInt();
+     
+     System.out.println("Ingrese otro numero");
+     int numero2= entrada.nextInt();
+     
+     System.out.println("Seleccione operación que desea realizar: ");
+     System.out.println("1_Suma");
+     System.out.println("2_Resta");
+     System.out.println("3_Multiplicación");
+     System.out.println("4_División");
+     int respuesta= entrada.nextInt();
+     
+ 
+   switch(respuesta){ 
+         
+         case 1:{
+             respuesta= numero1+numero2;
+             System.out.println("La suma de los valores es: "+respuesta);
+             }break;
+             
+             case 2:{
+             respuesta= numero1-numero2;
+             
+             System.out.println("La resta de los valores es: "+respuesta);
+             }break;
+             
+             case 3:{
+            respuesta= numero1*numero2;
+            
+             System.out.println("La multiplicación de los valores es: "+respuesta);
+            }break;
+             
+             case 4:{
+            respuesta= numero1/numero2;
+            
+             System.out.println("La división de los valores es: "+respuesta);
+           }break;
+             
+             default:
+             System.out.println("Opción inválida");
+       }
+   }  
+}
 
